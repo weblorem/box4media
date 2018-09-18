@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+  font-family: 'Lato', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.b4m-container:after, .b4m-container:before, .b4m-panel:after, .b4m-panel:before, .b4m-row:after, .b4m-row:before, .b4m-row-padding:after, .b4m-row-padding:before, .b4m-cell-row:before, .b4m-cell-row:after, .b4m-clear:after, .b4m-clear:before, .b4m-bar:before, .b4m-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.b4m-container {
+  margin: 0 auto;
+  width: 1000px;
+}
+.page-1 {}
+.page-1 .sec {
+  padding-top: 53px;
+  padding-bottom: 53px;
+}
+.page-1 .sec-1 {
+  background-color: #c2c3c3;
+}
+.page-1 .sec-1 .category-row {
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+}
+.page-1 .sec-1 .category-row .box {
+  float: left;
+  overflow: hidden;
+  width: 460px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 2px solid #1a171b;
+  border-radius: 5px;
+  background: #ffffff;
+  position: relative;
+}
+.page-1 .sec-1 .category-row .box .image {
+  float: left;
+}
+.page-1 .sec-1 .category-row .box .image img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.page-1 .sec-1 .category-row .box .info {
+  float: left;
+  display: block;
+  width: 220px;
+  padding: 20px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.page-1 .sec-1 .category-row .box .info h4 {
+  color: #FFFFFF;
+  background-color: #008158;
+  display: inline-block;
+  padding: 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+  position: absolute;
+  top: auto;
+  bottom: 20px;
+  left: auto;
+  right: 20px;
+}
+.page-1 .sec-1 .category-row .box .info .btn.btn-p {
+  color: #FFFFFF;
+  background-color: #008158;
+  display: inline-block;
+}
+
+
+.page-1 .sec-2 {}
+.page-1 .sec-2 .title-bar {
+  background-color: #008158;
+  padding: 9px 18px;
+  line-height: 35px;
+  font-weight: bold;
+  margin-bottom: 26px;
+}
+.page-1 .sec-2 .title-bar h2 {
+  color: #ffffff;
+}
+.page-1 .sec-2 .products-row {
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+}
+.page-1 .sec-2 .products-row .box {
+  float: left;
+  overflow: hidden;
+  width: 460px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 2px solid #1a171b;
+  border-radius: 5px;
+  background: #ffffff;
+}
+.page-1 .sec-2 .products-row .box .image {
+  float: left;
+}
+.page-1 .sec-2 .products-row .box .image img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.page-1 .sec-2 .products-row .box .info {
+  float: left;
+  display: block;
+}
+.page-1 .sec-2 .products-row .box .info h4 {
+  color: #1a171b
+}
+.page-1 .sec-2 .products-row .box .info .btn.btn-p {
+  color: #FFFFFF;
+  background-color: #008158;
+  display: inline-block;
+}
+
+.page-1 .sec-3 {
+  background-color: #c2c3c3;
+}
+.page-1 .sec-4 {}

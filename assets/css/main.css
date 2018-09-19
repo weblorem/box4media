@@ -52,7 +52,7 @@ table {
 }
 .b4m-container {
   margin: 0 auto;
-  width: 1000px;
+  width: 940px;
 }
 .page-1 {}
 .page-1 .sec {
@@ -185,24 +185,36 @@ table {
   color: #1a171b;
   font-size: 12px;
 }
-.page-1 .sec-2 .products-row .box .info hr {
+.page-1 .sec-2 .products-row .box .info hr {}
+.page-1 .sec-2 .products-row .box .info .price-1 {
+  display: inline-block;
+}
+.page-1 .sec-2 .products-row .box .info .price-2 {
+  display: block;
+  color: #cf4a6d;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 0px;
+}
+.page-1 .sec-2 .products-row .box .info .price-3 {
+  display: block;
 }
 .page-1 .sec-2 .products-row .box .info .btn.btn-p {
   color: #FFFFFF;
   background-color: #008158;
   display: inline-block;
-  padding: 14px;
+  padding: 12px;
   border-radius: 5px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   float: right;
   position: absolute;
   top: auto;
-  bottom: 20px;
+  bottom: 10px;
   left: auto;
-  right: 20px;
+  right: 15px;
 }
 
 .page-1 .sec-3 {
